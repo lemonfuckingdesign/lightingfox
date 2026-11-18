@@ -137,6 +137,11 @@
   .news input:focus { outline: none; border-color: var(--accent); }
   .helper { font-size: 12px; color: var(--muted); margin-top: 14px; }
 
+    .contact-direct { margin-top: 22px; padding-top: 20px; border-top: 1px solid var(--line); display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 10px; font-size: 13px; color: var(--muted); }
+  .contact-link { color: var(--text); border-bottom: 1px solid rgba(255,158,79,.4); padding-bottom: 2px; transition: color .2s, border-color .2s; }
+  .contact-link:hover { color: var(--accent); border-color: var(--accent); }
+  .contact-sep { opacity: .4; }
+
   /* Footer */
   footer { padding: 40px 0; }
   .foot-in { display: flex; justify-content: space-between; align-items: center; gap: 20px; flex-wrap: wrap; color: var(--muted); font-size: 13px; }
@@ -288,6 +293,13 @@
       <button class="btn btn-primary" type="submit" data-cn="订阅更新" data-en="Subscribe">订阅更新</button>
     </form>
     <div class="helper" data-cn="（示意）已订阅 1,200+ 位玩家 · 随时可退订" data-en="(sample) 1,200+ players subscribed · Unsubscribe anytime">（示意）已订阅 1,200+ 位玩家 · 随时可退订</div>
+        <div class="contact-direct">
+      <span data-cn="电话：" data-en="Tel:">电话：</span>
+      <a class="contact-link" href="tel:+8613512250490">+86 13512250490</a>
+      <span class="contact-sep">·</span>
+      <span data-cn="邮箱：" data-en="Email:">邮箱：</span>
+      <a class="contact-link" href="mailto:dhly2004@gmail.com">dhly2004@gmail.com</a>
+    </div>
   </div>
 </section>
 
